@@ -1,0 +1,253 @@
+Start: Mon Nov  7 07:07:41 2005.
+Installing CGI::Application::Plugin::Config::Context V 0.17
+Command: gunzip CGI-Application-Plugin-Config-Context-0.17.tgz
+
+Output:
+
+Errors:
+
+--------------------------------------------------
+Command: tar xvmf CGI-Application-Plugin-Config-Context-0.17.tar
+
+Output:
+CGI-Application-Plugin-Config-Context-0.17/
+CGI-Application-Plugin-Config-Context-0.17/t/
+CGI-Application-Plugin-Config-Context-0.17/t/11-file-caching.t
+CGI-Application-Plugin-Config-Context-0.17/t/08-get_current_config.t
+CGI-Application-Plugin-Config-Context-0.17/t/pod.t
+CGI-Application-Plugin-Config-Context-0.17/t/12-subclass.t
+CGI-Application-Plugin-Config-Context-0.17/t/04-module.t
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/06-multiple-matches.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/02-init1.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/02-init2.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/07-nested.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/04-module.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/05-site.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/03-path.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/12-module.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigScoped/09-custom-matchsections.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/06-multiple-matches.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/02-init1.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/02-init2.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/07-nested.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/04-module.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/05-site.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/03-path.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/12-module.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-XMLSimple/09-custom-matchsections.conf
+CGI-Application-Plugin-Config-Context-0.17/t/07-nested.t
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/06-multiple-matches.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/02-init1.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/02-init2.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/07-nested.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/04-module.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/05-site.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/03-path.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/12-module.conf
+CGI-Application-Plugin-Config-Context-0.17/t/conf-ConfigGeneral/09-custom-matchsections.conf
+CGI-Application-Plugin-Config-Context-0.17/t/03-path.t
+CGI-Application-Plugin-Config-Context-0.17/t/13-export_renaming.t
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_xml_simple/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_xml_simple/XML/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_xml_simple/XML/Simple.pm
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_config_general/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_config_general/Config/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_config_general/Config/General.pm
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_xml_simple+config_scoped/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_xml_simple+config_scoped/XML/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_xml_simple+config_scoped/XML/Simple.pm
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_xml_simple+config_scoped/Config/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_xml_simple+config_scoped/Config/Scoped.pm
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_config_scoped/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_config_scoped/Config/
+CGI-Application-Plugin-Config-Context-0.17/t/prereq_scenarios/skip_config_scoped/Config/Scoped.pm
+CGI-Application-Plugin-Config-Context-0.17/t/09-custom-matchsections.t
+CGI-Application-Plugin-Config-Context-0.17/t/05-site.t
+CGI-Application-Plugin-Config-Context-0.17/t/01-vivify-conf.t
+CGI-Application-Plugin-Config-Context-0.17/t/00.load.t
+CGI-Application-Plugin-Config-Context-0.17/t/02-init.t
+CGI-Application-Plugin-Config-Context-0.17/t/10-param.t
+CGI-Application-Plugin-Config-Context-0.17/t/pod-coverage.t
+CGI-Application-Plugin-Config-Context-0.17/t/06-multiple-matches.t
+CGI-Application-Plugin-Config-Context-0.17/lib/
+CGI-Application-Plugin-Config-Context-0.17/lib/CGI/
+CGI-Application-Plugin-Config-Context-0.17/lib/CGI/Application/
+CGI-Application-Plugin-Config-Context-0.17/lib/CGI/Application/Plugin/
+CGI-Application-Plugin-Config-Context-0.17/lib/CGI/Application/Plugin/Config/
+CGI-Application-Plugin-Config-Context-0.17/lib/CGI/Application/Plugin/Config/Context.pm
+CGI-Application-Plugin-Config-Context-0.17/TODO
+CGI-Application-Plugin-Config-Context-0.17/misc/
+CGI-Application-Plugin-Config-Context-0.17/misc/dist
+CGI-Application-Plugin-Config-Context-0.17/misc/module-starter-opts.txt
+CGI-Application-Plugin-Config-Context-0.17/misc/style.css
+CGI-Application-Plugin-Config-Context-0.17/misc/makedocs.pl
+CGI-Application-Plugin-Config-Context-0.17/misc/prove_prereqs.pl
+CGI-Application-Plugin-Config-Context-0.17/README
+CGI-Application-Plugin-Config-Context-0.17/Changes
+CGI-Application-Plugin-Config-Context-0.17/Build.PL
+CGI-Application-Plugin-Config-Context-0.17/MANIFEST.SKIP
+CGI-Application-Plugin-Config-Context-0.17/Makefile.PL
+CGI-Application-Plugin-Config-Context-0.17/META.yml
+CGI-Application-Plugin-Config-Context-0.17/MANIFEST
+
+Errors:
+
+--------------------------------------------------
+Command: gzip CGI-Application-Plugin-Config-Context-0.17.tar
+
+Output:
+
+Errors:
+
+--------------------------------------------------
+Command: perl Build.PL
+
+Output:
+Checking whether your kit is complete...
+Looks good
+Creating new 'Build' script for 'CGI-Application-Plugin-Config-Context' version '0.17'
+
+Errors:
+
+--------------------------------------------------
+Command: perl Build test
+
+Output:
+lib\CGI\Application\Plugin\Config\Context.pm -> blib\lib\CGI\Application\Plugin\Config\Context.pm
+t\00.load....................ok
+t\01-vivify-conf.............ok
+t\02-init....................ok
+        21/35 skipped: Config::Scoped not installed
+t\03-path....................ok
+        18/27 skipped: various reasons
+t\04-module..................ok
+        16/24 skipped: various reasons
+t\05-site....................ok
+        18/27 skipped: various reasons
+t\06-multiple-matches........ok
+        26/39 skipped: various reasons
+t\07-nested..................dubious
+	Test returned status 5 (wstat 1280, 0x500)
+DIED. FAILED tests 20-21, 24-26
+	Failed 5/108 tests, 95.37% okay (less 72 skipped tests: 31 okay, 28.70%)
+t\08-get_current_config......ok
+t\09-custom-matchsections....ok
+        8/12 skipped: various reasons
+t\10-param...................ok
+        28/42 skipped: various reasons
+t\11-file-caching............dubious
+	Test returned status 7 (wstat 1792, 0x700)
+DIED. FAILED tests 30-32, 38, 45-47
+	Failed 7/48 tests, 85.42% okay
+t\12-subclass................ok
+        2/3 skipped: various reasons
+t\13-export_renaming.........skipped
+        all skipped: Exporter::Renaming not installed
+t\pod-coverage...............ok
+t\pod........................ok
+Failed Test         Stat Wstat Total Fail  Failed  List of Failed
+-------------------------------------------------------------------------------
+t\07-nested.t          5  1280   108    5   4.63%  20-21 24-26
+t\11-file-caching.t    7  1792    48    7  14.58%  30-32 38 45-47
+1 test and 209 subtests skipped.
+
+Errors:
+# Testing CGI::Application::Plugin::Config::Context 0.17
+
+#   Failed test 'ConfigGeneral: 3.gordon'
+#   in t\07-nested.t at line 142.
+
+#   Failed test 'ConfigGeneral: 3./tony'
+#   in t\07-nested.t at line 143.
+
+#   Failed test 'ConfigGeneral: 3.winner'
+#   in t\07-nested.t at line 146.
+
+#   Failed test 'ConfigGeneral: 3.location_winner'
+#   in t\07-nested.t at line 147.
+
+#   Failed test 'ConfigGeneral: 3.site_winner'
+#   in t\07-nested.t at line 148.
+# Looks like you failed 5 tests of 108.
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+
+#   Failed test '15.original'
+#   in t\11-file-caching.t at line 218.
+#          got: '0'
+#     expected: '1'
+
+#   Failed test '15.modified'
+#   in t\11-file-caching.t at line 219.
+#          got: '1'
+#     expected: '0'
+
+#   Failed test '15.fruit'
+#   in t\11-file-caching.t at line 220.
+#          got: 'plum'
+#     expected: 'banana'
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+# failed to set timestamps on file: t/testconf.conf
+
+#   Failed test 'Include files - Modify after statconfig: Caching ON: objects differ'
+#   in t\11-file-caching.t at line 250.
+
+#   Failed test '51.original'
+#   in t\11-file-caching.t at line 260.
+#          got: '1'
+#     expected: '0'
+
+#   Failed test '51.modified'
+#   in t\11-file-caching.t at line 261.
+#          got: '0'
+#     expected: '1'
+
+#   Failed test '51.fruit'
+#   in t\11-file-caching.t at line 262.
+#          got: 'banana'
+#     expected: 'plum'
+# Looks like you failed 7 tests of 48.
+Failed 2/16 test scripts, 87.50% okay. 12/399 subtests failed, 96.99% okay.
+
+--------------------------------------------------
+Command: perl Build install
+
+Output:
+Manifying blib\lib/CGI/Application/Plugin/Config/Context.pm -> blib\libdoc\CGI.Application.Plugin.Config.Context.3
+HTMLifying blib\lib/CGI/Application/Plugin/Config/Context.pm -> blib/html/site/lib/CGI/Application/Plugin/Config/Context.html
+Installing C:\Perl\html\site\lib\CGI\Application\Plugin\Config\Context.html
+Installing C:\Perl\site\lib\CGI\Application\Plugin\Config\Context.pm
+Installing C:\Perl\man\man3\CGI.Application.Plugin.Config.Context.3
+Writing C:\Perl\site\lib\auto\CGI\Application\Plugin\Config\Context\.packlist
+
+Errors:
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<match_sections> in paragraph .
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<CGI> in paragraph 99.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<CGI> in paragraph 210.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<get_current_raw_config> in paragraph 268.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<match_sections> in paragraph 269.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<match_sections> in paragraph 270.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<match_sections> in paragraph 276.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<section_type> in paragraph 283.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<section_type> in paragraph 285.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<match_sections> in paragraph 285.
+Build: blib\lib/CGI/Application/Plugin/Config/Context.pm: cannot resolve L<match_sections> in paragraph 286.
+
+--------------------------------------------------
+
+error: 0.
+ok: 1.
+total: 1.
+Start: Mon Nov  7 07:08:25 2005.

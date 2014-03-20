@@ -1,0 +1,186 @@
+Start: Mon Nov  7 07:03:01 2005.
+Installing Config::Context V 0.10
+Command: gunzip Config-Context-0.10.tgz
+
+Output:
+
+Errors:
+
+--------------------------------------------------
+Command: tar xvmf Config-Context-0.10.tar
+
+Output:
+Config-Context-0.10/
+Config-Context-0.10/t/
+Config-Context-0.10/t/15-file-caching.t
+Config-Context-0.10/t/16-includes.t
+Config-Context-0.10/t/04-path.t
+Config-Context-0.10/t/14-nesting_pod_example.t
+Config-Context-0.10/t/01-lower_case_names.t
+Config-Context-0.10/t/09-trim_section_names.t
+Config-Context-0.10/t/pod.t
+Config-Context-0.10/t/11-multi-level-merge.t
+Config-Context-0.10/t/07-section_type_example.t
+Config-Context-0.10/t/00-load-and-usage.t
+Config-Context-0.10/t/05-module.t
+Config-Context-0.10/t/prereq_scenarios/
+Config-Context-0.10/t/prereq_scenarios/skip_xml_simple/
+Config-Context-0.10/t/prereq_scenarios/skip_xml_simple/XML/
+Config-Context-0.10/t/prereq_scenarios/skip_xml_simple/XML/Simple.pm
+Config-Context-0.10/t/prereq_scenarios/skip_config_general/
+Config-Context-0.10/t/prereq_scenarios/skip_config_general/Config/
+Config-Context-0.10/t/prereq_scenarios/skip_config_general/Config/General.pm
+Config-Context-0.10/t/prereq_scenarios/skip_xml_simple+config_scoped/
+Config-Context-0.10/t/prereq_scenarios/skip_xml_simple+config_scoped/XML/
+Config-Context-0.10/t/prereq_scenarios/skip_xml_simple+config_scoped/XML/Simple.pm
+Config-Context-0.10/t/prereq_scenarios/skip_xml_simple+config_scoped/Config/
+Config-Context-0.10/t/prereq_scenarios/skip_xml_simple+config_scoped/Config/Scoped.pm
+Config-Context-0.10/t/prereq_scenarios/skip_config_scoped/
+Config-Context-0.10/t/prereq_scenarios/skip_config_scoped/Config/
+Config-Context-0.10/t/prereq_scenarios/skip_config_scoped/Config/Scoped.pm
+Config-Context-0.10/t/03-regex.t
+Config-Context-0.10/t/12-exact.t
+Config-Context-0.10/t/10-escaping.t
+Config-Context-0.10/t/08-section_type.t
+Config-Context-0.10/t/02-substring.t
+Config-Context-0.10/t/pod-coverage.t
+Config-Context-0.10/t/13-nesting.t
+Config-Context-0.10/t/06-regex_hash_merge_reverse.t
+Config-Context-0.10/lib/
+Config-Context-0.10/lib/Config/
+Config-Context-0.10/lib/Config/Context.pm
+Config-Context-0.10/lib/Config/Context/
+Config-Context-0.10/lib/Config/Context/XMLSimple.pm
+Config-Context-0.10/lib/Config/Context/ConfigScoped.pm
+Config-Context-0.10/lib/Config/Context/ConfigGeneral.pm
+Config-Context-0.10/TODO
+Config-Context-0.10/misc/
+Config-Context-0.10/misc/dist
+Config-Context-0.10/misc/module-starter-opts.txt
+Config-Context-0.10/misc/style.css
+Config-Context-0.10/misc/notes.txt
+Config-Context-0.10/misc/makedocs.pl
+Config-Context-0.10/misc/prove_prereqs.pl
+Config-Context-0.10/README
+Config-Context-0.10/Changes
+Config-Context-0.10/test.txt
+Config-Context-0.10/Build.PL
+Config-Context-0.10/MANIFEST.SKIP
+Config-Context-0.10/Makefile.PL
+Config-Context-0.10/META.yml
+Config-Context-0.10/MANIFEST
+
+Errors:
+
+--------------------------------------------------
+Command: gzip Config-Context-0.10.tar
+
+Output:
+
+Errors:
+
+--------------------------------------------------
+Command: perl Build.PL
+
+Output:
+Checking whether your kit is complete...
+Looks good
+Creating new 'Build' script for 'Config-Context' version '0.10'
+
+Errors:
+
+--------------------------------------------------
+Command: perl Build test
+
+Output:
+lib\Config\Context.pm -> blib\lib\Config\Context.pm
+lib\Config\Context\ConfigGeneral.pm -> blib\lib\Config\Context\ConfigGeneral.pm
+lib\Config\Context\ConfigScoped.pm -> blib\lib\Config\Context\ConfigScoped.pm
+lib\Config\Context\XMLSimple.pm -> blib\lib\Config\Context\XMLSimple.pm
+t\00-load-and-usage..............ok
+t\01-lower_case_names............ok
+        5/10 skipped: Config::Scoped not installed
+t\02-substring...................ok
+        76/114 skipped: various reasons
+t\03-regex.......................ok
+        60/90 skipped: various reasons
+t\04-path........................ok
+        62/93 skipped: various reasons
+t\05-module......................ok
+        60/90 skipped: various reasons
+t\06-regex_hash_merge_reverse....ok
+        42/63 skipped: various reasons
+t\07-section_type_example........ok
+        24/36 skipped: various reasons
+t\08-section_type................ok
+        24/36 skipped: various reasons
+t\09-trim_section_names..........ok
+t\10-escaping....................ok
+        4/6 skipped: various reasons
+t\11-multi-level-merge...........ok
+        30/45 skipped: various reasons
+t\12-exact.......................ok
+        62/93 skipped: various reasons
+t\13-nesting.....................ok
+        60/90 skipped: various reasons
+t\14-nesting_pod_example.........ok
+        6/9 skipped: various reasons
+t\15-file-caching................ok
+        96/144 skipped: various reasons
+t\16-includes....................ok
+        26/39 skipped: various reasons
+t\pod-coverage...................ok
+t\pod............................ok
+All tests successful, 637 subtests skipped.
+Files=19, Tests=986, 41 wallclock secs ( 0.00 cusr +  0.00 csys =  0.00 CPU)
+
+Errors:
+# Testing Config::Context 0.10
+
+--------------------------------------------------
+Command: perl Build install
+
+Output:
+Manifying blib\lib/Config/Context/XMLSimple.pm -> blib\libdoc\Config.Context.XMLSimple.3
+Manifying blib\lib/Config/Context/ConfigScoped.pm -> blib\libdoc\Config.Context.ConfigScoped.3
+Manifying blib\lib/Config/Context.pm -> blib\libdoc\Config.Context.3
+Manifying blib\lib/Config/Context/ConfigGeneral.pm -> blib\libdoc\Config.Context.ConfigGeneral.3
+HTMLifying blib\lib/Config/Context/XMLSimple.pm -> blib/html/site/lib/Config/Context/XMLSimple.html
+HTMLifying blib\lib/Config/Context/ConfigScoped.pm -> blib/html/site/lib/Config/Context/ConfigScoped.html
+HTMLifying blib\lib/Config/Context.pm -> blib/html/site/lib/Config/Context.html
+HTMLifying blib\lib/Config/Context/ConfigGeneral.pm -> blib/html/site/lib/Config/Context/ConfigGeneral.html
+Installing C:\Perl\html\site\lib\Config\Context.html
+Skipping C:\Perl\html\site\lib\Config\Context\XMLSimple.html (unchanged)
+Skipping C:\Perl\html\site\lib\Config\Context\ConfigScoped.html (unchanged)
+Skipping C:\Perl\html\site\lib\Config\Context\ConfigGeneral.html (unchanged)
+Installing C:\Perl\site\lib\Config\Context.pm
+Skipping C:\Perl\site\lib\Config\Context\ConfigGeneral.pm (unchanged)
+Skipping C:\Perl\site\lib\Config\Context\ConfigScoped.pm (unchanged)
+Skipping C:\Perl\site\lib\Config\Context\XMLSimple.pm (unchanged)
+Installing C:\Perl\man\man3\Config.Context.XMLSimple.3
+Installing C:\Perl\man\man3\Config.Context.ConfigScoped.3
+Installing C:\Perl\man\man3\Config.Context.3
+Installing C:\Perl\man\man3\Config.Context.ConfigGeneral.3
+Writing C:\Perl\site\lib\auto\Config\Context\.packlist
+
+Errors:
+Build: blib\lib/Config/Context.pm: cannot resolve L<new> in paragraph 53.
+Build: blib\lib/Config/Context.pm: cannot resolve L<new> in paragraph 117.
+Build: blib\lib/Config/Context.pm: cannot resolve L<new()> in paragraph 275.
+Build: blib\lib/Config/Context.pm: cannot resolve L<match_section> in paragraph 277.
+Build: blib\lib/Config/Context.pm: cannot resolve L<context()> in paragraph 280.
+Build: blib\lib/Config/Context.pm: cannot resolve L<context> in paragraph 282.
+Build: blib\lib/Config/Context.pm: cannot resolve L<context> in paragraph 282.
+Build: blib\lib/Config/Context.pm: cannot resolve L<context> in paragraph 283.
+Build: blib\lib/Config/Context.pm: cannot resolve L<context> in paragraph 285.
+Build: blib\lib/Config/Context.pm: cannot resolve L<new> in paragraph 339.
+Build: blib\lib/Config/Context.pm: cannot resolve L<new> in paragraph 380.
+Build: blib\lib/Config/Context.pm: cannot resolve L<init> in paragraph 382.
+Build: blib\lib/Config/Context.pm: cannot resolve L<context()> in paragraph 389.
+
+--------------------------------------------------
+
+error: 0.
+ok: 1.
+total: 1.
+Start: Mon Nov  7 07:03:52 2005.

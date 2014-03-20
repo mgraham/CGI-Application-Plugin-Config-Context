@@ -1,0 +1,207 @@
+ok 1 - ConfigGeneral: 1.foo
+ok 2 - ConfigGeneral: 1.gordon
+ok 3 - ConfigGeneral: 1./tony
+ok 4 - ConfigGeneral: 1.fred
+ok 5 - ConfigGeneral: 1.simon
+ok 6 - ConfigGeneral: 1.winner
+ok 7 - ConfigGeneral: 1.location_winner
+ok 8 - ConfigGeneral: 1.site_winner
+ok 9 - ConfigGeneral: 1.app_winner
+ok 10 - ConfigGeneral: 2.foo
+ok 11 - ConfigGeneral: 2.gordon
+ok 12 - ConfigGeneral: 2./tony
+ok 13 - ConfigGeneral: 2.fred
+ok 14 - ConfigGeneral: 2.simon
+ok 15 - ConfigGeneral: 2.winner
+ok 16 - ConfigGeneral: 2.location_winner
+ok 17 - ConfigGeneral: 2.site_winner
+ok 18 - ConfigGeneral: 2.app_winner
+ok 19 - ConfigGeneral: 3.foo
+ok 20 - ConfigGeneral: 3.gordon
+ok 21 - ConfigGeneral: 3./tony
+ok 22 - ConfigGeneral: 3.fred
+ok 23 - ConfigGeneral: 3.simon
+ok 24 - ConfigGeneral: 3.winner
+ok 25 - ConfigGeneral: 3.location_winner
+ok 26 - ConfigGeneral: 3.site_winner
+ok 27 - ConfigGeneral: 3.app_winner
+ok 28 - ConfigGeneral: 4.foo
+ok 29 - ConfigGeneral: 4.gordon
+ok 30 - ConfigGeneral: 4./tony
+ok 31 - ConfigGeneral: 4.fred
+ok 32 - ConfigGeneral: 4.simon
+ok 33 - ConfigGeneral: 4.winner
+ok 34 - ConfigGeneral: 4.location_winner
+ok 35 - ConfigGeneral: 4.site_winner
+ok 36 - ConfigGeneral: 4.app_winner
+ok 37 - ConfigScoped: 1.foo
+ok 38 - ConfigScoped: 1.gordon
+ok 39 - ConfigScoped: 1./tony
+ok 40 - ConfigScoped: 1.fred
+ok 41 - ConfigScoped: 1.simon
+ok 42 - ConfigScoped: 1.winner
+ok 43 - ConfigScoped: 1.location_winner
+ok 44 - ConfigScoped: 1.site_winner
+ok 45 - ConfigScoped: 1.app_winner
+ok 46 - ConfigScoped: 2.foo
+ok 47 - ConfigScoped: 2.gordon
+ok 48 - ConfigScoped: 2./tony
+ok 49 - ConfigScoped: 2.fred
+ok 50 - ConfigScoped: 2.simon
+ok 51 - ConfigScoped: 2.winner
+ok 52 - ConfigScoped: 2.location_winner
+ok 53 - ConfigScoped: 2.site_winner
+ok 54 - ConfigScoped: 2.app_winner
+ok 55 - ConfigScoped: 3.foo
+ok 56 - ConfigScoped: 3.gordon
+ok 57 - ConfigScoped: 3./tony
+ok 58 - ConfigScoped: 3.fred
+ok 59 - ConfigScoped: 3.simon
+ok 60 - ConfigScoped: 3.winner
+ok 61 - ConfigScoped: 3.location_winner
+ok 62 - ConfigScoped: 3.site_winner
+ok 63 - ConfigScoped: 3.app_winner
+ok 64 - ConfigScoped: 4.foo
+ok 65 - ConfigScoped: 4.gordon
+ok 66 - ConfigScoped: 4./tony
+ok 67 - ConfigScoped: 4.fred
+ok 68 - ConfigScoped: 4.simon
+ok 69 - ConfigScoped: 4.winner
+ok 70 - ConfigScoped: 4.location_winner
+ok 71 - ConfigScoped: 4.site_winner
+ok 72 - ConfigScoped: 4.app_winner
+ok 73 - XMLSimple: 1.foo
+ok 74 - XMLSimple: 1.gordon
+ok 75 - XMLSimple: 1./tony
+ok 76 - XMLSimple: 1.fred
+ok 77 - XMLSimple: 1.simon
+ok 78 - XMLSimple: 1.winner
+ok 79 - XMLSimple: 1.location_winner
+ok 80 - XMLSimple: 1.site_winner
+ok 81 - XMLSimple: 1.app_winner
+ok 82 - XMLSimple: 2.foo
+ok 83 - XMLSimple: 2.gordon
+ok 84 - XMLSimple: 2./tony
+ok 85 - XMLSimple: 2.fred
+ok 86 - XMLSimple: 2.simon
+ok 87 - XMLSimple: 2.winner
+ok 88 - XMLSimple: 2.location_winner
+ok 89 - XMLSimple: 2.site_winner
+ok 90 - XMLSimple: 2.app_winner
+ok 91 - XMLSimple: 3.foo
+ok 92 - XMLSimple: 3.gordon
+ok 93 - XMLSimple: 3./tony
+ok 94 - XMLSimple: 3.fred
+ok 95 - XMLSimple: 3.simon
+ok 96 - XMLSimple: 3.winner
+ok 97 - XMLSimple: 3.location_winner
+ok 98 - XMLSimple: 3.site_winner
+ok 99 - XMLSimple: 3.app_winner
+ok 100 - XMLSimple: 4.foo
+ok 101 - XMLSimple: 4.gordon
+ok 102 - XMLSimple: 4./tony
+ok 103 - XMLSimple: 4.fred
+ok 104 - XMLSimple: 4.simon
+ok 105 - XMLSimple: 4.winner
+ok 106 - XMLSimple: 4.location_winner
+ok 107 - XMLSimple: 4.site_winner
+ok 108 - XMLSimple: 4.app_winner
+1..108
+AutoLoader             5.60
+CGI                    3.05
+CGI::Application       4.03
+CGI::Application::Plugin::Config::Context   0.17
+CGI::Util               1.5
+Carp                   1.02
+Carp::Heavy                
+Class::ISA             0.32
+Clone                  0.15
+Config                     
+Config::Context        0.08
+Config::Context::ConfigGeneral       
+Config::Context::ConfigScoped       
+Config::Context::XMLSimple       
+Config::General        2.30
+Config::Scoped         0.11
+Config::Scoped::Error   0.01
+Config::Scoped::Precomp   0.11
+Cwd                    3.01
+Digest::MD5            2.33
+Digest::base           1.00
+DynaLoader             1.05
+Encode                 2.11
+Encode::Alias          2.04
+Encode::Config         2.01
+Encode::Encoding       2.02
+Errno                  1.09
+Error                  0.15
+Exporter               5.58
+Exporter::Heavy        5.58
+Fcntl                  1.05
+File::Basename         2.72
+File::Path             1.06
+File::Spec             3.01
+File::Spec::Functions    1.3
+File::Spec::Unix        1.5
+File::Temp             0.14
+FileHandle             2.01
+Hash::Merge            0.07
+IO                     1.21
+IO::File               1.10
+IO::Handle             1.24
+IO::Seekable           1.09
+List::Util             1.14
+Log::Agent            0.306
+Log::Agent::Formatting       
+Log::Agent::Message        
+Log::Agent::Priorities       
+Opcode                 1.05
+Parse::RecDescent      1.94
+PerlIO                 1.03
+PerlIO::encoding       0.07
+Safe                   2.11
+Scalar::Util           1.14
+SelectSaver            1.00
+SelfLoader           1.0904
+Storable               2.13
+Symbol                 1.05
+Test::Builder          0.32
+Test::Builder::Module   0.03
+Test::More             0.62
+Text::Balanced         1.95
+URI                    1.31
+URI::Escape            3.26
+URI::_generic              
+URI::_query                
+XML::Filter::XInclude    1.0
+XML::NamespaceSupport   1.08
+XML::SAX               0.13
+XML::SAX::Base         1.04
+XML::SAX::DocumentLocator       
+XML::SAX::Exception    1.01
+XML::SAX::ParserFactory   1.01
+XML::SAX::PurePerl     0.90
+XML::SAX::PurePerl::DTDDecls       
+XML::SAX::PurePerl::DocType       
+XML::SAX::PurePerl::EncodingDetect       
+XML::SAX::PurePerl::Productions       
+XML::SAX::PurePerl::Reader       
+XML::SAX::PurePerl::Reader::Stream       
+XML::SAX::PurePerl::Reader::String       
+XML::SAX::PurePerl::Reader::URI       
+XML::SAX::PurePerl::Reader::UnicodeExt       
+XML::SAX::PurePerl::UnicodeExt       
+XML::SAX::PurePerl::XMLDecl       
+XML::Simple            2.14
+XSLoader               0.02
+base                   2.05
+bytes                  1.01
+constant               1.04
+overload               1.01
+re                     0.04
+strict                 1.03
+subs                   1.00
+utf8                   1.03
+vars                   1.01
+warnings               1.03
+warnings::register     1.00

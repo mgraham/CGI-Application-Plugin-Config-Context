@@ -1,0 +1,166 @@
+ok 1 - ConfigGeneral: 1.foo
+ok 2 - ConfigGeneral: 1.gordon
+ok 3 - ConfigGeneral: 1./tony
+ok 4 - ConfigGeneral: 1.fred
+ok 5 - ConfigGeneral: 1.simon
+ok 6 - ConfigGeneral: 1.winner
+ok 7 - ConfigGeneral: 1.location_winner
+ok 8 - ConfigGeneral: 1.site_winner
+ok 9 - ConfigGeneral: 1.app_winner
+ok 10 - ConfigGeneral: 2.foo
+ok 11 - ConfigGeneral: 2.gordon
+ok 12 - ConfigGeneral: 2./tony
+ok 13 - ConfigGeneral: 2.fred
+ok 14 - ConfigGeneral: 2.simon
+ok 15 - ConfigGeneral: 2.winner
+ok 16 - ConfigGeneral: 2.location_winner
+ok 17 - ConfigGeneral: 2.site_winner
+ok 18 - ConfigGeneral: 2.app_winner
+ok 19 - ConfigGeneral: 3.foo
+not ok 20 - ConfigGeneral: 3.gordon
+#   Failed test 'ConfigGeneral: 3.gordon'
+#   in t/07-nested.t at line 142.
+not ok 21 - ConfigGeneral: 3./tony
+#   Failed test 'ConfigGeneral: 3./tony'
+#   in t/07-nested.t at line 143.
+ok 22 - ConfigGeneral: 3.fred
+ok 23 - ConfigGeneral: 3.simon
+not ok 24 - ConfigGeneral: 3.winner
+#   Failed test 'ConfigGeneral: 3.winner'
+#   in t/07-nested.t at line 146.
+not ok 25 - ConfigGeneral: 3.location_winner
+#   Failed test 'ConfigGeneral: 3.location_winner'
+#   in t/07-nested.t at line 147.
+not ok 26 - ConfigGeneral: 3.site_winner
+#   Failed test 'ConfigGeneral: 3.site_winner'
+#   in t/07-nested.t at line 148.
+ok 27 - ConfigGeneral: 3.app_winner
+ok 28 - ConfigGeneral: 4.foo
+ok 29 - ConfigGeneral: 4.gordon
+ok 30 - ConfigGeneral: 4./tony
+ok 31 - ConfigGeneral: 4.fred
+ok 32 - ConfigGeneral: 4.simon
+ok 33 - ConfigGeneral: 4.winner
+ok 34 - ConfigGeneral: 4.location_winner
+ok 35 - ConfigGeneral: 4.site_winner
+ok 36 - ConfigGeneral: 4.app_winner
+ok 37 # skip Config::Scoped not installed
+ok 38 # skip Config::Scoped not installed
+ok 39 # skip Config::Scoped not installed
+ok 40 # skip Config::Scoped not installed
+ok 41 # skip Config::Scoped not installed
+ok 42 # skip Config::Scoped not installed
+ok 43 # skip Config::Scoped not installed
+ok 44 # skip Config::Scoped not installed
+ok 45 # skip Config::Scoped not installed
+ok 46 # skip Config::Scoped not installed
+ok 47 # skip Config::Scoped not installed
+ok 48 # skip Config::Scoped not installed
+ok 49 # skip Config::Scoped not installed
+ok 50 # skip Config::Scoped not installed
+ok 51 # skip Config::Scoped not installed
+ok 52 # skip Config::Scoped not installed
+ok 53 # skip Config::Scoped not installed
+ok 54 # skip Config::Scoped not installed
+ok 55 # skip Config::Scoped not installed
+ok 56 # skip Config::Scoped not installed
+ok 57 # skip Config::Scoped not installed
+ok 58 # skip Config::Scoped not installed
+ok 59 # skip Config::Scoped not installed
+ok 60 # skip Config::Scoped not installed
+ok 61 # skip Config::Scoped not installed
+ok 62 # skip Config::Scoped not installed
+ok 63 # skip Config::Scoped not installed
+ok 64 # skip Config::Scoped not installed
+ok 65 # skip Config::Scoped not installed
+ok 66 # skip Config::Scoped not installed
+ok 67 # skip Config::Scoped not installed
+ok 68 # skip Config::Scoped not installed
+ok 69 # skip Config::Scoped not installed
+ok 70 # skip Config::Scoped not installed
+ok 71 # skip Config::Scoped not installed
+ok 72 # skip Config::Scoped not installed
+ok 73 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 74 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 75 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 76 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 77 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 78 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 79 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 80 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 81 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 82 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 83 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 84 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 85 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 86 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 87 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 88 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 89 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 90 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 91 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 92 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 93 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 94 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 95 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 96 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 97 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 98 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 99 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 100 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 101 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 102 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 103 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 104 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 105 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 106 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 107 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+ok 108 # skip XML::Simple, XML::SAX or XML::Filter::XInclude not installed
+1..108
+# Looks like you failed 5 tests of 108.
+# Looks like your test died just after 108.
+AutoLoader             5.60
+CGI                    3.11
+CGI::Application       4.04
+CGI::Application::Plugin::Config::Context   0.17
+CGI::Util               1.5
+Carp                   1.03
+Carp::Heavy                
+Class::ISA             0.32
+Clone                  0.18
+Config                     
+Config::Context        0.10
+Config::Context::ConfigGeneral       
+Config::Context::ConfigScoped       
+Config::Context::XMLSimple       
+Config::General        2.30
+Cwd                    3.12
+DynaLoader             1.05
+Exporter               5.58
+Exporter::Heavy        5.58
+Fcntl                  1.05
+File::Spec             3.12
+File::Spec::Functions    1.3
+File::Spec::Unix        1.5
+File::Spec::Win32       1.6
+FileHandle             2.01
+Hash::Merge            0.07
+IO                     1.21
+IO::File               1.10
+IO::Handle             1.24
+IO::Seekable           1.09
+List::Util             1.14
+Scalar::Util           1.14
+SelectSaver            1.00
+Symbol                 1.05
+Test::Builder          0.32
+Test::Builder::Module   0.03
+Test::More             0.62
+XSLoader               0.02
+base                   2.06
+constant               1.04
+overload               1.02
+strict                 1.03
+vars                   1.01
+warnings               1.03
+warnings::register     1.00
